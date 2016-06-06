@@ -1,26 +1,7 @@
-
-/*  COMMENT FOR MANDI
-
-When I Validated my CSS code, it came back with 2 errros in regards
-to @font-face, and said that 'lighter' isnt a font-weight.
-
-CSS Tricks seems to think it is though, as does Atom.
-https://css-tricks.com/almanac/properties/f/font-weight/
-
-Let me know what you think!
-Thanks.
-
-
-*/
-
-
-
-
 /*BODY CSS*/
 
 body {
   font-size: 14px;
-
 }
 
 /* --------------------------- HEAD HERO AREA*/
@@ -55,7 +36,6 @@ nav {
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .nav_list {
@@ -68,7 +48,6 @@ nav {
   width: 95%;
 }
 
-
 .nav_list a {
   font-family: 'raleway', sans-serif;
   font-weight: bold;
@@ -78,11 +57,9 @@ nav {
   color: #e2574c;
   text-decoration: none;
   margin: 10px;
-
 }
 
 #cart {
-/*margin: 10px;*/
 flex: 0 1 20%;
 order: 2;
 }
@@ -99,14 +76,11 @@ order: 2;
   min-height: 200px;
   padding-top: 250px;
   padding-bottom: 40px;
-
   background:
     linear-gradient( to bottom, rgba(0,0,0,0.2) 0%, rgba(0, 0, 0, 0.3) 100%),
     url('../assets/images/banner-girl.png') no-repeat center 165px,
     url('../assets/images/flower-bkgd.jpg') repeat-x center top ;
-
   background-size: auto, 150px, 775px, contain;
-  /*background-repeat: no-repeat;*/
   text-align: center;
   margin-bottom: 50px;
 }
@@ -114,7 +88,6 @@ order: 2;
 #hero_cta {
   display: flex;
   position: relative;
-  /*width: 60%;*/
   max-width: 300px;
   height: 30%;
   text-align: center;
@@ -125,37 +98,9 @@ order: 2;
   flex-wrap: wrap;
 }
 
-
-/*BELOW IS SOME OLD SCHOOL CODE */
-
-/*#girl {
-  border: 1px solid green;
-  background:
-    url('../assets/images/banner-girl.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 60%;
-  height: 90%;
-  position: absolute;
-  bottom: 0;
-  left: 20%;
-  z-index: 1;
-}*/
-
-/*.overlay {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 2;
-  }*/
-
-
 /* --------------------- MAIN BODY AND PRODUCTS*/
 
 .main_text {
-  /*border: 1px solid black;*/
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -170,7 +115,6 @@ order: 2;
 .product {
   width: 100%;
   margin: 0 auto;
-  /*margin-bottom: 40px;*/
 }
 
 .product img {
@@ -230,7 +174,6 @@ form {
   height: 100%;
 }
 
-
 /* --------------------- SLIDER*/
 
 #featured {
@@ -289,7 +232,6 @@ footer {
   margin: 0 auto;
   margin-top: 20px;
   text-align: left;
-
 }
 
 .fa {
@@ -404,7 +346,6 @@ h5 {
   margin-bottom: 18px;
 }
 
-
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -414,7 +355,6 @@ h5 {
 .clearfix:after {
     clear: both;
 }
-
 
 /* --------------------- MEDIA QUERIES*/
 
@@ -432,14 +372,6 @@ h5 {
   .product {
     width: 50%;
   }
-
-  /*footer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }*/
 
   #footer_wrap {
     display: flex;
@@ -469,7 +401,6 @@ h5 {
   .nav_list {
     border-top: 0px;
   }
-
 
   .psocial {
     display: inline-block;
@@ -502,8 +433,6 @@ h5 {
   .womens_block {
     /*height: 190px;*/
   }
-
-
 
 }
 
