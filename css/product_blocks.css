@@ -1,0 +1,208 @@
+/* -----------------------  PRODUCT BLOCKS*/
+
+#shop {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.men_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: url('../assets/cat_images/mens-category.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 2%;
+  order: 1;
+}
+
+.men_block:before {
+  content: '';
+  padding-top: 50%;
+  display: block;
+}
+
+
+.trends_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  background: url('../assets/cat_images/trends-category.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 2%;
+  order: 2;
+}
+
+.trends_block:before {
+  content: '';
+  padding-top: 100%;
+  display: block;
+}
+
+.glasses_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  background: url('../assets/cat_images/glasses-category.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 2%;
+  order: 3;
+}
+
+.glasses_block:before {
+  content: '';
+  padding-top: 100%;
+  display: block;
+}
+
+.sale_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  background: url('../assets/cat_images/sale-category.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 2%;
+  order: 4;
+}
+
+.sale_block:before {
+  content: '';
+  padding-top: 100%;
+  display: block;
+}
+
+.bags_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  background: url('../assets/cat_images/bags-category.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 2%;
+  order: 5;
+}
+
+.bags_block:before {
+  content: '';
+  padding-top: 100%;
+  display: block;
+}
+
+.womens_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: url('../assets/cat_images/womens-category.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  order: 6;
+  margin-bottom: 2%;
+}
+
+.womens_block:before {
+  content: '';
+  padding-top: 50%;
+  display: block;
+}
+
+.blocks {
+  color: #fff;
+  font-size: 1.3rem;
+
+}
+
+@media screen and (min-width: 600px) {
+
+  .men_block {
+    width: 49.5%;
+    margin-bottom: 0.5%;
+    margin-right: 0.25%;
+
+  }
+
+  .trends_block {
+    width: 25%;
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+    margin-left: 0.25%;
+
+  }
+
+  .glasses_block {
+    width: 24.5%;
+    margin-bottom: 0.5%;
+
+
+  }
+
+  .sale_block {
+    width: 24.5%;
+    margin-right: 0.5%;
+
+
+  }
+
+  .bags_block {
+    width: 24.5%;
+    margin-right: 0.25%;
+
+
+  }
+
+  .womens_block {
+    width: 50%;
+    margin-left: 0.25%;
+
+  }
+
+
+}
+
+
+/*@media screen and (min-width: 1240px) {
+
+  .men_block {
+    height: 250px;
+  }
+
+  .trends_block {
+    height: 250px;
+  }
+
+  .glasses_block {
+    height: 250px;
+  }
+
+  .sale_block {
+    height: 250px;
+  }
+
+  .bags_block {
+    height: 250px;
+  }
+
+  .womens_block {
+    height: 250px;
+  }
+
+
+}*/
