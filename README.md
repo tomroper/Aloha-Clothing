@@ -8,7 +8,7 @@ The Aloha website is a front page for a e-commerce store. The user can navigate 
 jQuery was used for the smooth scrolling, product slider and to validate whether an email had been entered into the newsletter signup input on submit.
 
 
-This project uses:
+###This project uses:
 
 1. jQuery
 2. BX Slider
